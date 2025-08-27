@@ -125,10 +125,11 @@
     background-position: center;
     color: white;
     text-align: center;
-    flex-direction: column;
+
     justify-content: center;
 }
-.addimg-3cont{
+
+.addimg-3cont {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -136,13 +137,14 @@
     padding-top: 50px;
 
 }
-.addimg-img{
+
+.addimg-img {
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: 450px;
     left: 190px;
-    
+
 }
 
 .addimg-content {
@@ -203,4 +205,137 @@
     text-decoration: none;
     font-weight: bolder;
 
+}
+
+.addimg-3-button button {
+    border: 1px solid blue;
+    border-radius: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    color: blue;
+    width: 150px;
+}
+
+.addimg-3-button button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.product1 {
+    background: url(./img/logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product2 {
+    background: url(./img/tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product3 {
+    background: url(./img/mac.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product4 {
+    background: url(./img/watch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product5 {
+    background: url(./img/pods.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product6 {
+    background: url(./img/trade.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product {
+    height: 580px;
+    width: auto;
+
+}
+
+.apple-product {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+#fline {
+    font-size: 30px;
+    color: white;
+}
+
+#sline {
+    color: white;
+}
+
+.product a {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pro1 {
+    margin-top: 360px;
+
+}
+
+.apple-button-1 {
+    border: 1px solid blue;
+    border-radius: 50px;
+    margin-top: 18px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    width: 120px;
+    font-size: 15px;
+}
+
+.apple-button-2 {
+    border: 1px solid blue;
+    border-radius: 50px;
+    margin-top: 18px;
+    padding: 8px;
+    color: blue;
+    width: 90px;
+    font-size: 15px;
+}
+
+.apple-button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pro2 {
+    margin-top: 40px;
+}
+
+#linef {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#lines {
+    color: black;
 }
