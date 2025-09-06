@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    z-index: 99;
+}
+.dropdown{
+    
+}
+.dropdown-content{
+  left: 0%;
+   position: absolute;
+  display: none;
+}
+.box li{
+list-style: none;
+}
+.box p{
+    color: white;
+    font-size: 10px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown .dropdown-content:hover::before{
+opacity: 1;
+
+
+
+
+}
+.dropdown-content::before:hover{
+    opacity:1 ;
+}
+.dropdown-content::before{
+content:"" ;
+inset: 0;
+display: flex;
+    white-space: nowrap;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    opacity: 0;
+
+}
